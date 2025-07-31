@@ -108,7 +108,7 @@ class PDF(FPDF):
             self.set_font("Arial", '', 12)
             self.cell(0, 10, f"Failed to load image: {path}", ln=True)
 
-# Step 4: Building the PDF
+# Step 4: Building pthe PDF
 pdf = PDF()
 pdf.set_auto_page_break(auto=True, margin=15)
 pdf.add_title_page()
